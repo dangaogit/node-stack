@@ -1,0 +1,20 @@
+{
+  "name": "@dangao/node-stack",
+  "version": "1.0.0",
+  "description": "Gets the current stack information",
+  "main": "dist/index.js",
+  "repository": "https://github.com/dangaogit/node-stack.git",
+  "author": "dangaogit",
+  "license": "MIT",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "rm -rf ./dist/* && tsc -p ./ -d --listFiles --traceResolution --extendedDiagnostics"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
