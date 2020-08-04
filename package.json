@@ -1,6 +1,6 @@
 {
   "name": "@dangao/node-stack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gets the current stack information",
   "main": "dist/index.js",
   "repository": "https://github.com/dangaogit/node-stack.git",
@@ -8,6 +8,11 @@
   "license": "MIT",
   "files": [
     "dist/*"
+  ],
+  "keywords": [
+    "stack",
+    "node stack",
+    "stack list"
   ],
   "scripts": {
     "build": "rm -rf ./dist/* && tsc -p ./ -d --listFiles --traceResolution --extendedDiagnostics"
